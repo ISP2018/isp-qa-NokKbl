@@ -1,11 +1,11 @@
 # Questions
 
-**Q1:** According to PAD Tip 11 "Let Design Guide, Not Dictate", what are 3 terms in the CRC card design method? (Choose the best answer.)
+**Q1:** According to *PAD* Tip 11 "Let Design Guide, Not Dictate", classes are described in terms of the CRC card design method, what is the CRC stand for? (Choose the best answer.)
 
-- [ ] Contents, References, Collaborators
-- [ ] Class name, Responsibilities, Collaborators
-- [ ] Contents, Requirements, Code
-- [ ] Concepts, Responsibilities, Comments
+:white_circle: Contents, References, Collaborators </br>
+:white_circle: Class name, Responsibilities, Collaborators </br>
+:white_circle: Contents, Requirements, Code </br>
+:white_circle: Concepts, Responsibilities, Comments
 
 </br>
 
@@ -33,10 +33,11 @@
 # Answers
 
 **A1:**
-- [ ] Contents, References, Collaborators
-- [x] Class name, Responsibilities, Collaborators
-- [ ] Contents, Requirements, Code
-- [ ] Concepts, Responsibilities, Comments
+
+:white_circle: Contents, References, Collaborators </br>
+:radio_button: Class name, Responsibilities, Collaborators </br>
+:white_circle: Contents, Requirements, Code </br>
+:white_circle: Concepts, Responsibilities, Comments
 
 > Ref: *PAD* Tip 11 "Let Design Guide, Not Dictate" (pp. 48-51)
 
