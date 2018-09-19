@@ -1,39 +1,48 @@
 # Questions
 
-### Q1: According to PAD Tip 11 "Let Design Guide, Not Dictate", what are 3 terms in the CRC card design method? (Choose the best answer.)
+**Q1:** According to PAD Tip 11 "Let Design Guide, Not Dictate", what are 3 terms in the CRC card design method? (Choose the best answer.)
 
-<input type="radio" disabled/> Contents, References, Collaborators</br>
-<input type="radio" disabled/> Class name, Responsibilities, Collaborators</br>
-<input type="radio" disabled/> Contents, Requirements, Code</br>
-<input type="radio" disabled/> Concepts, Responsibilities, Comments
+- [ ] Contents, References, Collaborators
+- [ ] Class name, Responsibilities, Collaborators
+- [ ] Contents, Requirements, Code
+- [ ] Concepts, Responsibilities, Comments
 
-### Q2: What are the reasons to do unit testing? List at least 3 reasons.
+</br>
 
-### Q3: According to The *7 Habits of Highly Effective Programmers* book, if you want to be effective programmers that lift up each other, what do you need to do? (Check all correct answers.)
+**Q2:** What are the reasons to do unit testing? List at least 3 reasons.
 
-[ ] Read as many technical books as you can.</br>
-[ ] Listening to teammates.</br>
-[ ] Chatting with people.</br>
-[ ] Learn how to use Docker and develop Graph APIs.</br>
-[ ] Really understand the colleagues.</br>
+</br>
 
-### Q4: According to container management in *Docker in Production* book, what are 3 major locations to store the images you are creating? List and shortly describe each of the locations (How it runs? and when do you use it?).
+**Q3:** According to The *7 Habits of Highly Effective Programmers* book, if you want to be effective programmers that lift up each other, what do you need to do? (Check all correct answers.)
 
-### Q5: According to Prototypes and Post-it Notes in *The Pragmatic Programmer* book, why should we use prototypes?
+- [ ] Read as many technical books as you can.
+- [ ] Listening to teammates.
+- [ ] Chatting with people.
+- [ ] Learn how to use Docker and develop Graph APIs.
+- [ ] Really understand the colleagues.
+
+</br>
+
+**Q4:** According to container management in *Docker in Production* book, what are 3 major locations to store the images you are creating? List and shortly describe each of the locations (How it runs? and when do you use it?).
+
+</br>
+
+**Q5:** According to Prototypes and Post-it Notes in *The Pragmatic Programmer* book, why should we use prototypes?
 
 
 # Answers
 
-### A1:
-
-<input type="radio" disabled/> Contents, References, Collaborators</br>
-<input type="radio" checked/> Class name, Responsibilities, Collaborators</br>
-<input type="radio" disabled/> Contents, Requirements, Code</br>
-<input type="radio" disabled/> Concepts, Responsibilities, Comments
+**A1:**
+- [ ] Contents, References, Collaborators
+- [x] Class name, Responsibilities, Collaborators
+- [ ] Contents, Requirements, Code
+- [ ] Concepts, Responsibilities, Comments
 
 > Ref: *PAD* Tip 11 "Let Design Guide, Not Dictate" (pp. 48-51)
 
-### A2:
+</br>
+
+**A2:**
 
 These are some reasons from PAD:
 - Unit testing provides instant feedback.
@@ -46,18 +55,20 @@ These are some reasons from PAD:
 
 > Ref: *PAD* Tip 19 "Put Angels on Your Shoulders" (pp. 78-81)
 
+</br>
 
-### A3:
-
-[ ] Read as many technical books as you can.</br>
-[x] Empathic listening to teammates.</br>
-[ ] Chatting with people.</br>
-[ ] Learn how to use Docker and develop Graph APIs.</br>
-[x] Genuinely understand our colleagues.
+**A3:**
+- [ ] Read as many technical books as you can.
+- [x] Empathic listening to teammates.
+- [ ] Chatting with people.
+- [ ] Learn how to use Docker and develop Graph APIs.
+- [x] Genuinely understand our colleagues.
 
 > Ref: The *7 Habits of Highly Effective Programmers* book, No. 5 "Seek First to Understand, Then to Be Understood"
 
-### A4:
+</br>
+
+**A4:**
 
 There're 3 major locations to store the images, those are
 
@@ -67,9 +78,11 @@ There're 3 major locations to store the images, those are
 
 - **The locally run Docker registry** - Locally run by ourself to storage images. We'll use this option when we're running containers that store some private data and want to keep the data locked.
 
-> Ref: Container image storage in *Docker in Production* book(p. 4)
+> Ref: Container image storage in *Docker in Production* book (p. 4)
 
-### A5:
+</br>
+
+**A5:**
 
 We should use prototypes because we can analyze and ignore unimportant details easily and we also offer chances for correction to get away with incorrect results. Moreover, prototyping is much cheaper and faster to develop than full-scale production.
 
